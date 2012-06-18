@@ -8,6 +8,7 @@ class postgresql::install {
   user { "postgres":
     ensure => present,
     comment => "PostgreSQL user",
+    gid => "postgres",
     shell => "/bin/false",
     require => Group["postgres"],
   }
