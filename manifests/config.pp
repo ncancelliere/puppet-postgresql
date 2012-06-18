@@ -1,6 +1,6 @@
 class postgresql::config {
   
-  file { "/etc/postgresql/9.1/pg_hba.conf",
+  file { "/etc/postgresql/9.1/pg_hba.conf":
     ensure => present,
     source => "puppet:///modules/postgresql/pg_hba.conf",
     owner => "postgres",
