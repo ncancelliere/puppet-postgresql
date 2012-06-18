@@ -4,7 +4,6 @@ class postgresql::service {
     ensure => running,
     hasstatus => true,
     hasrestart => true,
-    enabled => true,
     require => Class["postgresql::config"],
   }
 
