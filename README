@@ -1,6 +1,15 @@
 This is a work in progress...
 
 
+About PostgreSQL
+
+PostgreSQL is an open source object-relational database system. With over
+15 years of development it has a proven architecture and a reputation
+for being powerful and reliable. It can support advanced features such
+as HA, binary replication, JSON/XML explain plans, and key-value 
+storage (HStore). Visit http://www.postgresql.org/about/ to learn more.
+
+
 
 
 Copyright (C) 2012 Nicholas Cancelliere
