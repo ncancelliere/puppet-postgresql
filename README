@@ -1,4 +1,17 @@
-This is a work in progress...
+
+Overview
+
+This module will install the PostgreSQL 9.1 server and client. It's been
+tested on Ubuntu 12.04 LTS (Precise).
+
+
+Example Use
+
+Simply include this module in your node, that's it!
+
+node 'my.node.com' {
+  include postgresql
+}
 
 
 About PostgreSQL
